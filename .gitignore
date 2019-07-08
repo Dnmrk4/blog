@@ -1,6 +1,6 @@
 virtual/
 *.pyc
 .idea/
-__pycache__.py
+__pycache__
 .vscode/
 
