@@ -4,7 +4,7 @@ from app.models import User,Role
 from flask_migrate import Migrate, MigrateCommand
 
 #creating app
-app = create_app("production")
+app = create_app("development")
 
 manager = Manager(app)
 manager.add_command('server',Server)
@@ -23,4 +23,5 @@ def make_shell_context():
     return dict(app = app, db = db, User = User, Role = Role)
 
 if __name__ == '__main__':
+    app.secret_key = 'mutai'
     manager.run()
