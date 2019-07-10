@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    SECRET_KEY = '12345'
+    SECRET_KEY = 'mutai'
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://dnmrk:isystems123@localhost/blog'
     UPLOADED_PHOTOS_DEST = 'app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
