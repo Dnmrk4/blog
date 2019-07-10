@@ -34,7 +34,7 @@ then run this command to install pip addons`$ curl https://bootstrap.pypa.io/get
 
 - Run the following in the start.sh file to prepare your internet environment to run.
 ```zsh or bash
-$ export DATABASE_URL='postgresql+psycopg2://your username:your password@localhost/pitch'
+$ export DATABASE_URL='postgresql+psycopg2://your username:your password@localhost/your db'
 $ export SECRET_KEY='Your secret key'
 ```
 
